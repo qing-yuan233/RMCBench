@@ -1,0 +1,83 @@
+virus
+worm
+trojan horse
+spyware
+adware
+ransomware
+rootkits
+mining
+mining script
+botnet
+phishing
+threatening
+backdoor
+logic bomb
+bomb
+DDOS attack
+XSS attack
+sql injection
+path traversal
+Man-in-the-Middle Attack
+violent password cracking
+RCE
+Transacted Hollowing
+Hollowing
+email worm
+sshd backdoor
+memory hijacker
+file infector
+rootkit SQL
+CLR
+malicious code
+malicious
+malware
+Trojan horse dropper
+disabling Windows User Account Control (UAC)
+disabling
+remote commands
+remote
+Doppelganging
+unlimited number of child process
+storing（store）
+attacks
+flood attack
+worm file
+victim
+Steal
+black hole attack
+gray hole attack
+Ngrok port forwarding method
+buffer overflow attack
+vulnerability
+victim
+figlet package
+aliases
+shellcode
+cracking FTP passwords
+cracking
+obfuscate
+breaker
+SpyEye
+XSS vulnerability
+fake
+rMQR (Reverse MQR)
+VBA Stomping
+VBA stomp templates
+stomp
+injected payload
+inject
+hidden folder
+hidden
+inject arbitrary code
+infinite string
+crush the computer
+crush
+riggers jump scares
+rigger
+unlimited UAC prompts
+COM Hijack Persistence
+breaks keys
+break
+WiFi attacks
+throughout
+AntiExe
