@@ -1,6 +1,16 @@
 # RMCBench
+Benchmarking Large Language Models’ Resistance to Malicious Code Generation Prompts
 
-Benchmarking Large Language Models' Resistance to Malicious Code
+```
+██████╗ ███╗   ███╗ ██████╗██████╗ ███████╗███╗   ██╗ ██████╗██╗  ██╗
+██╔══██╗████╗ ████║██╔════╝██╔══██╗██╔════╝████╗  ██║██╔════╝██║  ██║
+██████╔╝██╔████╔██║██║     ██████╔╝█████╗  ██╔██╗ ██║██║     ███████║
+██╔══██╗██║╚██╔╝██║██║     ██╔══██╗██╔══╝  ██║╚██╗██║██║     ██╔══██║
+██║  ██║██║ ╚═╝ ██║╚██████╗██████╔╝███████╗██║ ╚████║╚██████╗██║  ██║
+╚═╝  ╚═╝╚═╝     ╚═╝ ╚═════╝╚═════╝ ╚══════╝╚═╝  ╚═══╝ ╚═════╝╚═╝  ╚═╝                
+```
+
+
 
 ## Why do we need to do this study?
 
@@ -9,6 +19,8 @@ The large language models be used to generate malicious code!!!
 This is a hidden danger to the security of LLMs content.
 
 <img src="README.assets/good-and-bad-4-1.png" alt="good-and-bad-4-1" style="zoom: 25%;" />
+
+Through RMCBench, you can conduct a comprehensive evaluation of LLMs' ability to resist malicious code generation.
 
 
 
