@@ -58,7 +58,39 @@ GOOD：LLMs refuse to generate malicious code
 - code completion
 - code translation
 
+## data details
+The following is an explanation of all the fields in the dataset.
+### These fields are present in all samples:
+- **model_name:** The full name of the LLM being tested.
+- **pid:** The ID of the prompt.
+- **category:** The scenario of malicious code generation (text-to-code, code-to-code).
+- **task:** The specific task of malicious code generation (text-to-code generation, code translation, code completion).
+- **prompt:** The prompt that instructs the LLMs to generate malicious code.
+- **malicious functionality:** The specific malicious intent/functionality of the malicious code.
+- **malicious categories:** The category of malicious code corresponding to the malicious intent/functionality.
+- **input_tokens:** The token length of the prompt.
+- **response:** The response from the LLMs.
+- **label:** The automated labeling results from ChatGPT-4.
+- **check:** The results of manual sampling checks on the label.
 
+
+### These fields are specific to the text-to-code scenario:
+- **level:** The difficulty level of text-to-code.
+- **level description:** The description and explanation of the level.
+- **jid:** The ID of the jailbreak template (in level 3).
+
+### These fields are specific to the code-to-code scenario:
+- **cid:** The ID of the malicious code sample we collected.
+- **original code:** The complete malicious code sample we collected.
+- **language:** The programming language of the malicious code.
+- **code lines:** The number of lines in the malicious code.
+- **source:** The source of the malicious code.
+
+### These fields are specific to the code-to-code scenario's code completion task:
+- **code to be completed:** The remaining malicious code after being hollowing out.
+- **missing part:** The hollowed out code (the code that needs to be completed).
+- **completion level:** The level of code completion (token-level, line-level, multiline-level, function-level).
+- **completion position:** The position of code completion (next token, fill-in-middle).
 
 ## Paper Link
 
