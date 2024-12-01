@@ -94,15 +94,29 @@ The following is an explanation of all the fields in the dataset.
 
 ## Paper Link
 
-```
-hold on
-```
+📝[Arxiv](https://arxiv.org/abs/2409.15154)
+📝[ACM Digital Library](https://dl.acm.org/doi/10.1145/3691620.3695480)
 
+## Dataset
+🌟 [Github](https://github.com/qing-yuan233/RMCBench/tree/main/data)
+🤗 [Hugging Face](https://huggingface.co/datasets/zhongqy/RMCBench)
 
 
 ## Citation
 
 ```
-hold on
+@inproceedings{10.1145/3691620.3695480,
+author = {Chen, Jiachi and Zhong, Qingyuan and Wang, Yanlin and Ning, Kaiwen and Liu, Yongkun and Xu, Zenan and Zhao, Zhe and Chen, Ting and Zheng, Zibin},
+title = {RMCBench: Benchmarking Large Language Models' Resistance to Malicious Code},
+year = {2024},
+isbn = {9798400712487},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3691620.3695480},
+doi = {10.1145/3691620.3695480},
+numpages = {12},
+keywords = {large language models, malicious code, code generation},
+location = {Sacramento, CA, USA},
+series = {ASE '24}
+}
 ```
-
